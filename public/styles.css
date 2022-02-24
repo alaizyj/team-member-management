@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* ||for all screens*/
+
+.screen {
+    width: 280px;
+    margin: auto;
+}
+
+.top_button_div {
+    text-align: right;
+}
+
+.top_button {
+    color: #1e90ff;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+}
+
+.page_header {
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid grey;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0rem;
+}
+
+.sub_header {
+    color: grey;
+}
+
+p {
+    margin: 0;
+    padding: 0.1rem;
+}
+
+
+/* ||form - add, edit screens */
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_title {
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.checkbox {
+    border-bottom: 1px solid grey;
+    margin-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+label {
+    font-size: 0.8rem;
+    color: grey;
+}
+
+.error {
+    color: red;
+    font-size: 0.5rem;
+}
+
+input:checked+label {
+    color: black;
+}
+
+.button_area {
+    display: flex;
+    flex-direction: row;
+}
+
+input[type=text] {
+    padding: 0;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+input[type=radio] {
+    float: right;
+}
+
+.add_button {
+    width: 60px;
+    padding: 0.5rem;
+    color: white;
+    background-color: #1e90ff;
+    border: none;
+}
+
+.add_button_div {
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 1rem;
+}
+
+.delete_button {
+    width: 60px;
+    padding: 0.5rem;
+    background-color: transparent;
+    color: red;
+    border: 0.5px solid grey;
+}
+
+.delete_button_div {
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+
+/* || member card */
+
+.member_card {
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    width: 280px;
+    border-bottom: 1px solid grey;
+}
+
+.profile-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.member_info {
+    padding-left: 1rem;
+}
+
+.name_info {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact_info {
+    color: grey;
+}
