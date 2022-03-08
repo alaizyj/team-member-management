@@ -22,6 +22,8 @@ There are 7 components created for 3 screens.
       <img width="241" alt="image" src="https://user-images.githubusercontent.com/77893385/157296121-633e980b-407b-4b49-b390-3766391a8237.png">
    <p>Edit screen</p>
 </div>
+
+
 # Other
 1. Error handling is incorporated for validating form input.
 2. React-router-dom is used for navigation among screens.  
