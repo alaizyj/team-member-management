@@ -5,7 +5,7 @@ Functionalities include view, edit, add, and delete team members.
 
 
 # Getting started 
-To start the application, run 'npm start' in the project directory.
+To start the application, run 'npm install' then 'npm start' in the project directory.
 Open http:localhost:3000 to view it in the browser.
 
 # Components  
